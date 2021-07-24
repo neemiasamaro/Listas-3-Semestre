@@ -1,0 +1,23 @@
+//Neemias Silva Amaro
+
+import java.util.Scanner;
+
+public class Exercicio08 {
+    
+    static int maior (int n1 , int n2){
+        return Math.max(n1, n2);
+    } 
+    public static void main(String[] args) {
+        Scanner leia = new Scanner (System.in);
+
+        int numero1, numero2;
+
+        System.out.print("Entre com um numero inteiro: ");
+        numero1 = leia.nextInt();
+        System.out.print("Entre com outro numero inteiro: ");
+        numero2 = leia.nextInt();
+        System.out.println("\nO maior eh : " + maior ( numero1, numero2) );
+
+        leia.close();
+    }
+}
